@@ -1,0 +1,50 @@
+.contact{
+    border-top: 3px solid #04c2c9;
+    background: #1b242f;
+    padding: 30px 90px 50px;
+    position: relative;
+}
+.socials{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+.socials a{
+    text-decoration: none;
+    background: #262f38;
+    font-size: 18pt;
+    height: 55px;
+    margin: 0 15px;
+    overflow: hidden;
+    position: relative;
+    text-align: center;
+    transition: color 0.3s, box-shadow 0.3s, transform 0.3s;
+    width: 55px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+.socials a i{
+    color: #fff;
+    text-align: center;
+}
+.socials a:hover{
+    background: #04c2c9;
+    box-shadow: 0 0 0 3px rgb(4 94 201 / 10%);
+    transform: scale(0.9);
+}
+.contact-info{
+    display: flex;
+    margin-bottom: 30px;
+    /* align-items: center; */
+    /* justify-content: center; */
+}
+.contact-h3{
+    color: #fff;
+    font-size: 12pt;
+    font-weight: 500;
+}
+.contact-end{
+    margin-top: 30px;
+}

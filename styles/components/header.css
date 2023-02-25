@@ -1,0 +1,29 @@
+header{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background: #1b242f;
+    border-bottom: 3px solid #04c2c9;
+    height: 50px;
+    position: sticky;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 100;
+}  
+.nav{
+    text-align: left;
+    width: 80%;
+}
+.nav > a{
+    margin: 0 20px;
+    text-transform: uppercase;
+    transition: color 0.5s;
+    color: #fff;
+    text-decoration: none;
+}
+.nav>a:hover{
+    color: #e31b6d;
+    transition: color 0.5s;
+}

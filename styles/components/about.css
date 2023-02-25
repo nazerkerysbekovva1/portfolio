@@ -1,0 +1,123 @@
+.about{
+    line-height: 18pt;
+    padding: 100px 0 130px 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.about-content{
+    padding: 0 10px;
+    box-sizing: border-box;
+    margin: 0 auto;
+    width: 100%;
+}
+.about-inner-top{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 0 90px;
+}
+.nav-text{
+    animation: slideInLeft 0.75s ease both;
+    font-size: 30pt;
+    color: #444649;
+    font-weight: 600;
+}
+.line{
+    background-color: #444649;
+    width: 200px;
+    height: 3px;
+    margin: 25px 0 100px 0;
+}
+.about-inner-middle{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    /* width: 100%; */
+    height: 100%;
+    padding: 0 90px;
+}
+.middle-item{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    width: 25%;
+    height: 100%;
+}
+.about-icon{
+    animation: flipInX 0.75s ease both;
+    height: 120px;
+    width: 120px;
+    border-radius: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #04c2c9;;
+}
+.about-icon>i{
+    color: #fff;
+    font-size: 40pt;
+}
+.text-info{
+    margin: 15px 0 5px 0;
+    font-size: 18pt;
+    font-weight: 700;
+    color: #444649;
+    line-height: 18pt;
+}
+.text-about{
+    line-height: 18pt;
+    font-size: 12pt;
+    color: #444649;
+    text-align: center;
+}
+.about-inner-content{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    height: 100%;
+    padding: 0 90px;
+}
+.about-info, .skills-info{
+    padding: 30px 50px;
+    width: 50%;
+}
+.info-img{
+    width: 450px;
+    height: 450px;
+    background-color: #fff;
+    border-bottom: #04c2c9 2px solid;
+}
+.info-img>img{
+    width: 100%;
+    margin-left: -20px;
+}
+.bold{
+    font-weight: bold;
+}
+.info-info{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.skills-info{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+.skills-info ul{
+    width: 100%;
+}
+.skills-info ul li{
+    font-size: 11pt;
+    height: 28px;
+    margin: 0 0 15px 0;
+    background-color: #00a1a7;
+    color: #fff;
+    text-align: center;
+    font-weight: 700;
+}

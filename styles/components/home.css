@@ -1,0 +1,56 @@
+.home{
+    height: 100vh;
+    padding: 0 10px;
+    background: linear-gradient(rgb(7 7 7 / 60%), rgb(0 0 0 / 60%)), url("../../images/counter-bg.jpg");
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.home-text{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: #fff;
+    font-weight: 500;
+}
+.text{
+    font-size: 32pt;
+    line-height: 36pt;
+    margin: 0 0 20px 0;
+    pointer-events: none;
+}
+.text span{
+    color: #e31b6d;
+    font-weight: 700;
+}
+.button{
+    padding: 12px 50px 12px 20px;
+    margin-bottom: 53px;
+    font-size: 16pt;
+}
+.button > a{
+    border: 2px solid #fff;
+    box-sizing: inherit;
+    cursor: pointer;
+    display: inline-block;
+    font-size: 13pt;
+    padding: 10px 20px;
+    transition: all 0.5s;
+    color: #fff;
+    text-decoration: none;
+}
+.button>a>i{
+    margin-left: 15px;
+    transition: transform 0.3s;
+}
+.button>a:hover{
+    background-color: #04c2c9;
+    border-color: #04c2c9;
+}
+.button>a:hover > i{
+    transform: rotate(90deg);
+}
